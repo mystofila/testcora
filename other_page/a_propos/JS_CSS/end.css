@@ -1,0 +1,71 @@
+#endPopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    width: 450px;
+    height: 350px;
+    padding: 20px 20px 20px;
+    background-color: rgb(235, 249, 253);
+    box-shadow: 0px 15px 30px black;
+    border: 30px solid rgba(1, 10, 83, 0.986);
+    visibility: hidden;
+}
+
+#endPopup.Active {
+    visibility: visible;
+
+}
+
+
+#endPopup h3 {
+    font-size: 3rem;
+    text-decoration: underline;
+    margin: 15px;
+}
+
+#endPopup p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#closeEndPopup {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    max-width: 30px;
+    max-height: 30px;
+    margin: 0;
+}
+
+#closeEndPopup:hover {
+    cursor: pointer;
+}
+
+#partyPoppers
+{
+    height: 25%;
+    position: fixed;
+    top: 10px;
+    left: 50px;
+}
+
+#party
+{
+    height: 25%;
+    position: fixed;
+    top: 10px;
+    right: 50px;
+}
+
+#thanks
+{
+    height: 25%;
+    position: fixed;
+    bottom: 1px;
+}

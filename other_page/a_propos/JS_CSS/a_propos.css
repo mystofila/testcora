@@ -1,0 +1,155 @@
+ h2 {
+    text-align: center;
+    font-size:  60px;
+    color: rgb(255, 255, 255);
+    text-decoration-line: underline;
+}
+ 
+ .container {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar1 {
+    vertical-align: left;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+  
+.avatar2 {
+    vertical-align: middle;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;   
+}
+  
+.avatar3 {
+    vertical-align: right;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+body {
+    background-image: url("../Avatars/BACKGROUND.jpg");
+    background-repeat: no-repeat;
+    background-position: top ;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    margin: 0;
+}
+
+div {
+    vertical-align: middle;
+}
+
+.article {
+
+    text-align: center;
+    text-justify: auto;
+    font-family: sans-serif;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.job { 
+    text-align: center;
+    margin-top: 10%;
+}
+
+.nurserie {
+    text-align: center;
+    margin-top: 5%;
+}
+ 
+figcaption {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+
+/* image volée */
+
+#spoilContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#btnSpoil
+{
+    width: 10%;
+}
+
+#changeText
+{
+    color: black;
+    font-size: 15px;
+}
+
+.hidden
+{
+    visibility: hidden;
+    text-align: center;
+}
+
+.show
+{
+    visibility: visible;
+}
+
+/* RESPONSIVE */
+/* IPAD */
+
+@media screen and (max-width: 821px) {
+    .body {
+        width: 820px;
+    }
+    .job img {
+        width: 820px;
+    }
+    .dimitri img {
+        width: 260px;
+    }
+    .coralie img {
+        width: 260px;
+    }
+    .kevin img {
+        width: 260px;
+    }
+    #btnSpoil {
+        width: 200px;
+    }
+}
+
+/* iPhone */
+
+@media screen and (max-width: 415px) {
+    .job img {
+        width: 375px;
+    }
+    .dimitri img {
+        width: 120px;
+    }
+    .coralie img {
+        width: 120px;
+    }
+    .kevin img {
+        width: 120px;
+    }
+    #btnSpoil {
+        width: 100px;
+    }
+
+}
