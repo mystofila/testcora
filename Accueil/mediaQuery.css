@@ -1,0 +1,49 @@
+@media screen and (max-width: 420px)
+{
+    section h2{
+        margin-left: 0;
+        height: 50%;
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    [alt="Gear"]
+    {
+        height: 300px;
+    }
+    [alt="Gear2"]
+    {
+        display:none;
+    }
+
+    #popup
+    {
+        width: 80%;
+        height: 39%;
+        font-size: 1.3rem;
+    }
+
+    .newsLetter
+    {
+        height: 100%;
+        width: 100%;
+    }
+
+    #drkModeBtn
+    {
+        left: 85%;
+        height: 40px;
+        width: 40px;
+    }
+
+}
+
+@media screen and (min-width: 421px) and (max-width: 820px)
+{
+    #drkModeBtn
+    {
+        left: 93%;
+        height: 40px;
+        width: 40px;
+    }
+}
