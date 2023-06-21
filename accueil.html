@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Accueil/accueil.css">
+    <link rel="stylesheet" href="./global_CSS_JS/header_footer.css">
+    <link rel="stylesheet" href="./Accueil/darkMode.css">
+    <link rel="stylesheet" href="./Accueil/mediaQuery.css">
+    <link rel="stylesheet" href="./global_CSS_JS/header_footerPhone.css">
+    <title>Le Tour du Monde des Monuments </title>
+</head>
+
+<body>
+    <main>
+        <header>
+
+
+            <figure class="logo">
+                <a href="./accueil.html" class="redirection"><img src="./global_icon/Logo5.png" alt="Logo">
+                </a>
+            </figure>
+
+            <div class="flex_header">
+                <h1>Le Tour du Monde des Monuments</h1>
+
+                <!-- navigation -->
+                <nav>
+                    <a href="./accueil.html" class="redirection">
+                        Accueil
+                    </a>
+                    <div class="dropDown">
+                        <button class="dropBtn">Afrique</button>
+                        <a href="./monuments_page/Renaissance_Africaine/renaissanceAfricaine.html" class="redirection">
+                            <div class="dropContent">Renaissance Africaine</div>
+                        </a>
+                    </div>
+
+
+                    <div class="dropDown">
+                        <button class="dropBtn">Amérique du Nord</button>
+                        <a href="./monuments_page/Mont Rushmore/mont_rushmore.html" class="redirection">
+                            <div class="dropContent">Mont Rushmore</div>
+                        </a>
+                    </div>
+
+
+
+                    <div class="dropDown">
+                        <button class="dropBtn">Amérique du Sud</button>
+                        <a href="./monuments_page/Tikal/tikal.html" class="redirection">
+                            <div class="dropContent">Tikal</div>
+                        </a>
+                    </div>
+
+                    <div class="dropDown">
+                        <button class="dropBtn">Australie</button>
+                        <a href="./monuments_page/Harbour Bridge/harbour_bridge.html" class="redirection">
+                            <div class="dropContent">Harbour Bridge
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="dropDown">
+                        <button class="dropBtn">Asie</button>
+                        <a href="./monuments_page/Chand Baori/chand_baori.html" class="redirection">
+                            <div class="dropContent">Chand Baori</div>
+                        </a>
+                    </div>
+
+                    <div class="dropDown">
+                        <button class="dropBtn">Europe</button>
+                        <a href="./monuments_page/leCairn/le_cairn.html" class="redirection">
+                            <div class="dropContent">Le Cairn de Bernenez
+                            </div>
+                        </a>
+                    </div>
+
+                </nav>
+            </div>
+
+
+            <figure class="language">
+                <!-- faire le choix des langues par image cliquable-->
+                <a href="/monuments_page/Chand Baori/chand_baori.html" title="Francais"><img src="./global_icon/france.png" alt="French Flag"></a>
+                <a href="./other_page/acceuil_eng.html"> <img src="./global_icon/united-kingdom.png" alt="English Flag"
+                        title="go to the English version"></a>
+            </figure>
+        </header>
+
+        <!-- boutton dark mode -->
+        <div id="drkModeBtn">
+        </div>
+
+        <section>
+               <h2>Bienvenue sur la page d'accueil </h2>
+            <p id="intro">
+                Vous avez envie de voyager, de visiter des monuments historiques ? Vous êtes sur le bon site ! <br />
+                Nous avons pour but de vous faire découvrir des édifices dont vous ignorez peut être l'existence, du moins, jusqu'à aujourd'hui. <br />
+                Utilisez le menu pour naviguer sur le site et en apprendre un peu plus sur les différents monuments, qui sait, peut être que vous finirez pas y trouver votre bonheur. <br />
+                <br />
+                Si vous voulez que l'on se renseigne sur un édifice en particulier, vous pouvez également utiliser notre newsletter et nous transmettre votre demande, où bien simplement vous abonner
+                afin de suivre les mises à jours à venir et ne rien rater. <br />
+                <br />
+                Toute l'équipe du Tour du Monde des Monuments vous souhaites une agréable visite !
+            </p>
+        </section>
+
+        <section>
+
+            <!-- accordion -->
+            <button class="accordion"><img src="./global_icon/down-arrow.png" alt="down-arrow"
+                    class="arrow">Afrique</button>
+            <div class="panel">
+                <div class="accordionContent">
+                    <a href="./monuments_page/Renaissance_Africaine/renaissanceAfricaine.html">
+                        <img src="./Accueil/photos/monument_renaissance_africaine_crop.jpg" alt="Renaissance Africaine">
+                            <br>Renaissance Africaine
+                    </a>
+                    <img src="./global_icon/question-sign.png" alt="question mark" title="a Venir"
+                        class="linkNewsLetter">
+                </div>
+            </div>
+
+            <button class="accordion"><img src="./global_icon/down-arrow.png" alt="down-arrow" class="arrow">
+                Amérique du Nord</button>
+            <div class="panel">
+                <div class="accordionContent">
+                    <a href="./monuments_page/Mont Rushmore/mont_rushmore.html">
+                        <img src="./Accueil/photos/Rushmore_crop.png" alt="Mont Rushmore">
+                        <br>Mont Rushmore
+                    </a>
+                    <img src="./global_icon/question-sign.png" alt="question mark" title="a Venir"
+                        class="linkNewsLetter">
+
+                </div>
+            </div>
+
+            <button class="accordion"><img src="./global_icon/down-arrow.png" alt="down-arrow" class="arrow">
+                Amérique du Sud</button>
+            <div class="panel">
+                <div class="accordionContent">
+                    <a href="./monuments_page/Tikal/tikal.html">
+                        <img src="./Accueil/photos/tikal-main-plaza.jpg" alt="Tikal">
+                        <br>Tikal
+                    </a>
+                    <img src="./global_icon/question-sign.png" alt="question mark" title="a Venir"
+                        class="linkNewsLetter">
+
+                </div>
+            </div>
+
+            <button class="accordion"><img src="./global_icon/down-arrow.png" alt="down-arrow" class="arrow">
+                Australie</button>
+            <div class="panel">
+                <div class="accordionContent">
+                    <a href="./monuments_page/Harbour Bridge/harbour_bridge.html">
+                        <img src="./Accueil/photos/johnny-bhalla-fY2AIvC4gv8-unsplash.jpg" alt="Harbour Bridge">
+                        <br>Harbour Bridge
+                    </a>
+                    <img src="./global_icon/question-sign.png" alt="question mark" title="a Venir"
+                        class="linkNewsLetter">
+
+                </div>
+            </div>
+
+            <button class="accordion"><img src="./global_icon/down-arrow.png" alt="down-arrow" class="arrow">
+                Asie</button>
+            <div class="panel">
+                <div class="accordionContent">
+                    <a href="./monuments_page/Chand Baori/chand_baori.html">
+                        <img src="./Accueil/photos/chand-baori-abhaneri.jpg" alt="Chand Baori">
+                        <br>Chand Baori
+                    </a>
+                    <img src="./global_icon/question-sign.png" alt="question mark" title="a Venir"
+                        class="linkNewsLetter" />
+
+
+                </div>
+            </div>
+
+            <button class="accordion"><img src="./global_icon/down-arrow.png" alt="down-arrow" class="arrow">
+                Europe</button>
+            <div class="panel">
+                <div class="accordionContent">
+                    <a href="./monuments_page/leCairn/le_cairn.html">
+                        <img src="./Accueil/photos/le-cairn-de-barnenez-est-le-plus-vieux-monument-d-europe_6194687_676x445p.jpg"
+                            alt="Cairn de Bernenez">
+                        <br>Le Cairn de Bernenez
+                    </a>
+                    <img src="./global_icon/question-sign.png" alt="question mark" title="a Venir"
+                        class="linkNewsLetter">
+                </div>
+            </div>
+
+            <!-- fin accordion -->
+
+            <!-- popup newletter -->
+            <div id="popup">
+                <div class="newsLetter">
+                    <h3>Abonnez vous !</h3>
+                    <p>Veuillez vous abonnez a notre Newsletter pour être tenu informé des mises a jours du site</p>
+
+
+                    <form action="" method="get" class="inputBox">
+                        <input type="email" placeholder="Adresse Mail" required> <br> <br>
+                        <input type="submit" value="Sign up" id="validationBtn">
+                    </form>
+
+                </div>
+                <img src="./global_icon/close.png" alt="Close Button" id="closePopup">
+            </div>
+        </section>
+
+        <footer>
+            <!-- Footer a refaire en flex et fini -->
+
+            <address class="mail"><a href="mailto:TimMonuments@ProjectNursery.com">TimMonuments@ProjectNursery.com</a>
+            </address>
+            <a href="./other_page/a_propos/a_propos.html">A propos </a>
+            
+
+        </footer>
+    </main>
+
+    <script src="./global_CSS_JS/darkMode.js"></script>
+    <script src="./Accueil/newsLetter.js"></script>
+    <script src="./Accueil/accordion.js"></script>
+
+</body>
+
+</html>
