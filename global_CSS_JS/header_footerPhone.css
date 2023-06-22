@@ -1,0 +1,21 @@
+@media screen and (max-width: 420px) {
+    nav {
+        flex-direction: column;
+        width: 94%;
+        height: 40%;
+    }
+
+    .flex_header {
+        height: 40%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-size: 1.2rem;
+    }
+}
