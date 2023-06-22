@@ -1,0 +1,363 @@
+@font-face {
+    font-family: "Sydney Style";
+    src: url(./polices/Milkshake.ttf)
+}
+
+/* CSS body */
+main {
+    background-image: url(./img/SHBbgtest.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+}
+
+body {
+    margin: 0%;
+}
+
+/* CSS main title */
+.shb {
+    -webkit-animation: flip-in-hor-bottom 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: flip-in-hor-bottom 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    text-align: center;
+    font-size: 140px;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.4);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin: 0%;
+
+    font-family: "Sydney Style";
+}
+
+
+@-webkit-keyframes flip-in-hor-bottom {
+    0% {
+        -webkit-transform: rotateX(80deg);
+        transform: rotateX(80deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: rotateX(0);
+        transform: rotateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes flip-in-hor-bottom {
+    0% {
+        -webkit-transform: rotateX(80deg);
+        transform: rotateX(80deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: rotateX(0);
+        transform: rotateX(0);
+        opacity: 1;
+    }
+}
+
+/* CSS geo part */
+#content1 {
+    display: flex;
+    margin-top: 25%;
+    background: rgba(0, 0, 0, 0.6);
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+p.titlegeo {
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: "Sydney Style";
+}
+
+.geo {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-align: center;
+    font-family: "Sydney Style";
+}
+
+.titlelinkgeo {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    background: rgba(83, 156, 190, 0.4);
+    margin-left: 26%;
+    margin-right: 26%;
+    font-family: "Sydney Style";
+}
+
+.linkgeo {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center
+}
+
+.linkaus {
+    margin-left: 300px;
+    background: rgba(83, 156, 190, 0.4);
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.linksyd {
+    margin-right: 300px;
+    background: rgba(83, 156, 190, 0.4);
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+/* CSS hist part */
+#content2 {
+    display: flex;
+    margin-top: 5%;
+    background: rgba(49, 47, 47, 0.6);
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.hist {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-align: left;
+    font-family: "Sydney Style";
+}
+
+p.titlehist {
+    font-size: 30px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.titlelinkhist {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    background: rgba(83, 156, 190, 0.4);
+    margin-left: 36%;
+    margin-right: 36%;
+    font-family: "Sydney Style";
+}
+
+.linkhist {
+    text-align: left;
+    margin-left: 50%;
+    translate: -50%;
+    margin-right: 22%;
+    background: rgba(83, 156, 190, 0.4);
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+/* CSS liens utiles */
+#content3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.title_use_link {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    background: rgba(83, 156, 190, 0.4);
+    margin-left: 42%;
+    margin-right: 42%;
+    font-family: "Sydney Style";
+}
+
+.uselink {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    background: rgba(83, 156, 190, 0.4);
+    margin-left: 50%;
+    translate: -50%;
+    margin-right: 30%;
+}
+
+/* CSS link */
+a {
+    text-decoration: underline;
+    color: rgb(254, 255, 255);
+}
+
+figcaption {
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: center;
+}
+
+/* CSS Carousel */
+#wrapper {
+    margin-top: 100px;
+    width: 100%;
+    max-width: 964px;
+    position: relative;
+    margin-left: 50%;
+    translate: -50%;
+}
+
+#carousel {
+    display: flex;
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+#carousel::-webkit-scrollbar {
+    height: 0;
+}
+
+#prev,
+#next {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: white;
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    outline: 0;
+    cursor: pointer;
+    position: absolute;
+}
+
+#prev {
+    top: 50%;
+    left: 0;
+    transform: translate(50%, -50%);
+    display: none;
+}
+
+#next {
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+
+#content {
+    display: grid;
+    grid-gap: 16px;
+    grid-auto-flow: column;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.item {
+    width: 350px;
+    height: 250px;
+    background: rgb(92, 94, 92);
+}
+
+.puff-in-center {
+    animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+/* RESPONSIVE */
+/* IPAD */
+
+@media screen and (max-width: 821px) {
+
+    .shb {
+        font-size: 90px;
+       margin: 0%;
+    }
+    #content1 {
+        flex-wrap: wrap;
+    } 
+
+    .map, .town {
+        margin-left: 21%;
+        margin-right: 21%;
+
+    }
+    p.titlegeo, p.titlehist {
+        font-size: 23px;
+    }
+    .geo, .hist {
+        font-size: 18px;
+    }
+    .linkgeo {
+        flex-wrap: wrap;
+    }
+    .linksyd, .linkaus {
+        margin-left: 21%;
+        margin-right: 21%;
+        font-size: 17px;
+        margin-top: 1%;
+    }
+    .titlelinkgeo {
+        font-size: 23px;
+    }
+    .build {
+        margin-top: 12%;
+    }
+    .linkhist {
+        font-size: 17px;
+    }
+}
+ /* iPhone */
+
+ @media screen and (max-width: 415px) {
+    .shb {
+        margin: 0%;
+        font-size: 90px;
+        font-size: 70px;
+    } 
+    #content1 {
+        flex-wrap: wrap;
+    } 
+    .map iframe {
+       width: 100%;   
+    } 
+    .map, .town {
+        margin: 0px;       
+    }
+    p.titlegeo, p.titlehist {
+        font-size: 19px;
+        text-align: center;
+    }
+    .geo, .hist {
+        font-size: 15px;
+        text-align: center;
+    }
+    .town img {
+        margin: 0px;
+        width: 100%;
+    }
+    .titlelinkgeo {
+        font-size: 17px;
+    }
+    #content2 {
+        flex-wrap: wrap;
+    }
+    #content2 figure {
+        margin: 0%;
+    }
+    .titlelinkhist {
+        margin: 0px;
+        font-size: 17px;
+    }
+    .linkhist {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0%;
+    } 
+    .title_use_link {
+        margin: 0;
+        font-size: 17px;
+    }
+    .uselink {
+        font-size: 15px;
+        margin-right: 0%;
+    }
+}

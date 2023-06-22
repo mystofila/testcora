@@ -1,0 +1,68 @@
+/* passe le btn en blanc */
+#whiteModeBtn {
+    background-color: rgba(247, 247, 247, 0.979);
+}
+
+/* body change */
+#drkModeBtn {
+    position: relative;
+    left: 97.4%;
+    background-color: black;
+    width: 2%;
+    height: 40px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.darkMode {
+    background-color: rgb(58, 55, 55);
+}
+
+.darkMode section {
+    color: rgb(230, 225, 225);
+}
+
+/* header change */
+.darkMode header {
+    color: rgb(230, 225, 225);
+    background-color: rgb(32, 32, 32);
+}
+
+.darkMode nav,
+.darkMode .dropBtn,
+.darkMode .dropContent,
+.darkMode nav a {
+    background-color: rgb(142, 142, 146);
+}
+
+.darkMode .dropContent:hover {
+    background-color: rgb(100, 100, 100);
+}
+
+/* article change */
+.darkMode .article, .darkMode ul
+{
+    color: rgb(0, 0, 0);
+    background-color: rgb(142, 142, 146);
+}
+
+/* tableau change */
+.darkMode th
+{
+    background-color:rgb(48, 45, 45) ;
+    color: rgb(230, 225, 225);
+}
+
+.darkMode td{
+    background-color: rgb(142, 142, 146 );
+}
+
+
+
+/* footer change */
+.darkMode footer,
+.darkMode footer a {
+    color: rgb(230, 225, 225);
+    background-color: rgb(32, 32, 32);
+}

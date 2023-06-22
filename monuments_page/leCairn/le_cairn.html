@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../global_CSS_JS/header_footer.css">
+    <link rel="stylesheet" href="./JS_CSS/le_cairn.css">
+    <link rel="stylesheet" href="./JS_CSS/carousel.css">
+    <link rel="stylesheet" href="./JS_CSS/enLargeImg.css">
+    <link rel="stylesheet" href="./JS_CSS/darkMode.css">
+    <link rel="stylesheet" href="./JS_CSS/mediaQuery.css">
+    <link rel="stylesheet" href="../../global_CSS_JS/header_footerPhone.css">
+
+    <title>Le Cairn de Bernenez</title>
+</head>
+
+<body>
+    <main>
+        <header class="blurTarget">
+
+            <figure class="logo">
+                <a href="../../index.html"><img src="../../global_icon/Logo5.png" alt="Logo">
+                </a>
+            </figure>
+
+            <div class="flex_header">
+                <h1>Le Tour du Monde des Monuments</h1>
+
+                <!-- voir pour faire une nav avec un gros bloc en fixed -->
+                <nav>
+                    <a href="../../index.html">
+                        Accueil
+                    </a>
+                    <div class="dropDown">
+                        <button class="dropBtn">Afrique</button>
+                        <a href="../Renaissance_Africaine/renaissanceAfricaine.html">
+                            <div class="dropContent">Renaissance Africaine</div>
+                        </a>
+                    </div>
+
+
+                    <div class="dropDown">
+                        <button class="dropBtn">Amérique du Nord</button>
+                        <a href="../Mont Rushmore/mont_rushmore.html" class="dropContent">
+                            <div>Mont Rushmore</div>
+                        </a>
+                    </div>
+
+
+
+                    <div class="dropDown">
+                        <button class="dropBtn">Amérique du Sud</button>
+                        <a href="../Tikal/tikal.html">
+                            <div class="dropContent">Tikal</div>
+                        </a>
+                    </div>
+
+                    <div class="dropDown">
+                        <button class="dropBtn">Australie</button>
+                        <a href="../Harbour Bridge/harbour_bridge.html">
+                            <div class="dropContent">Harbour Bridge
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="dropDown">
+                        <button class="dropBtn">Asie</button>
+                        <a href="../Chand Baori/chand_baori.html">
+                            <div class="dropContent">Chand Baori</div>
+                        </a>
+                    </div>
+
+                    <div class="dropDown">
+                        <button class="dropBtn">Europe</button>
+                        <a href="./le_cairn.html">
+                            <div class="dropContent">Le Cairn de Bernenez
+                            </div>
+                        </a>
+                    </div>
+
+                </nav>
+            </div>
+
+            <figure class="language">
+                <!-- faire le choix des langues par image cliquable-->
+                <a href="./le_cairn.html" title="Francais"><img src="../../global_icon/france.png"
+                        alt="French Flag"></a>
+                <a href="../../other_page/fake_page/fake_Page.html"> <img src="../../global_icon/united-kingdom.png"
+                        alt="English Flag" title="not working right now"></a>
+            </figure>
+        </header>
+
+        <!-- button dark mode -->
+        <div id="drkModeBtn" class="blurTarget">
+
+        </div>
+
+        <section class="mainSection blurTarget">
+            <article class="article" id="firstArticle">
+                <h2>Le Cairn de Bernenez</h2>
+                <p>
+                    Le cairn de Barnenez (Kerdi Bras en breton) est un monument mégalithique du Néolithique se trouvant
+                    au lieu-dit Barnenez dans la commune de Plouezoc'h, sur la côte nord du Finistère, en Bretagne.
+                    D'une longueur de 75 m, ce cairn dolménique est constitué en réalité de deux cairns en pierres
+                    sèches accolés, qui recouvrent onze dolmens à couloir.
+                    Cet ensemble est le plus grand mausolée mégalithique après celui de Newgrange et, avec le cairn III
+                    de Guennoc, le plus vieux monument d’Europe.
+
+                </p>
+            </article>
+
+            <!-- premiere section principale -->
+            <aside class="GMapPosition">
+                <figure>
+                    <!-- iframe google maps -->
+                    <iframe
+                        src="https://www.google.com/maps/d/embed?mid=1rUXHTbHWKpLKcOm8eO6dSX60ixw&hl=de&ehbc=2E312F"></iframe>
+                </figure>
+            </aside>
+        </section>
+
+        <!-- deuxieme section -->
+        <section class="secondSection blurTarget">
+
+            <article class="subArticle">
+                <figure>
+                    <img src="./photos/63e39970f04d2c1a95502676.jpg" alt="image monument" id="myImg" class="imgClick" />
+                </figure>
+
+                <ul>
+                    <li><span>taille:</span> <br> 95m</li>
+                    <li>
+                        <span>hauteur:</span> <br>8m
+                    </li>
+                    <li><span>largeur</span> <br>35m</li>
+                    <li><span>Construction:</span> <br>200 000h+</li>
+                </ul>
+                    
+                <!-- listes d'infos -->
+                <aside>
+                    <!-- Flickity HTML init -->
+                    <div id="wrapper">
+                        <div id="carousel">
+                            <div id="content">
+                                <img id="myImg2" class="item imgClick" src="./photos/Barnenez_front2.jpg"
+                                    alt="carousel img 1" />
+                                <img id="myImg3" class="item imgClick" src="./photos/crtb-Cairn2_BERTHIER-Emmanuel.jpg"
+                                    alt="carousel img 2" />
+                                <img id="myImg4" class="item imgClick" src="./photos/phbw07-3243_bd.jpg"
+                                    alt="carousel img 3" />
+                                <img id="myImg5" class="item imgClick" src="./photos/img_2083.1.jpg"
+                                    alt="carousel img 4">
+                            </div>
+                        </div>
+                        <button id="prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="none" d="M0 0h24v24H0V0z" />
+                                <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                            </svg>
+                        </button>
+                        <button id="next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="none" d="M0 0h24v24H0V0z" />
+                                <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                            </svg>
+                        </button>
+                    </div>
+                </aside>
+            </article>
+        </section>
+
+        <section class="thirdSection blurTarget">
+            <article class="article">
+                <h2>En savoir plus</h2>
+                <p>La construction du cairn secondaire, un agrandissement, commence vers 4 300, soit après la chute du
+                    Grand menhir, pour se terminer vers 4 200.
+                    Les vestiges d'un troisième cairn, Kerdi Bihan, plus petit et fortement endommagé, se trouvent à une
+                    centaine de mètres au nord-ouest de Kerdi Bras.</p>
+            </article>
+
+
+            <!-- mettre en forme le tableau (lien utile en dropButton?) -->
+            <div class="tableDropDown">
+                <button onclick="myFunction()" id="tableDropDownBtn"> Liens Utiles<img
+                        src="../../global_icon/down-arrow.png" alt=""></button>
+                <div id="tableDropContent" class="contentHide">
+                    <table>
+                        <tr>
+                            <th>Site Officiel</th>
+                            <th>Besoin d'un hôtel proche?</th>
+                            <th>Achat d'un ticket pourle voyage?</th>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.barnenez.fr/" target="_blank">Bernenez.fr</a></td>
+                            <td><a href="https://www.booking.com/searchresults.fr.html?ss=Cairn+de+Barnenez%2C+Plouezoc%27h%2C+France&map=1&efdco=1&label=gen173nr-1BCAEoggI46AdIM1gEaE2IAQGYAQ24ARfIAQ_YAQHoAQGIAgGoAgO4AtfJwqMGwAIB0gIkMTcxYjZlYWMtMTIyYi00ZTFkLTliNWUtNjBmMDU3NjkyZGYx2AIF4AIB&sid=29eed7b6c1c6e1e3fd4ab6ba5d9a040f&aid=304142&lang=fr&sb=1&src_elem=sb&src=index&dest_id=ChIJLVEtsZvfE0gRQ8BFiToGRbY&dest_type=landmark&place_id=ChIJLVEtsZvfE0gRQ8BFiToGRbY&latitude=48.6675928&longitude=-3.8583557&ac_position=0&ac_click_type=g&ac_langcode=fr&ac_suggestion_list_length=1&search_selected=true&search_pageview_id=c08a572b74a60295&checkin=2023-05-27&checkout=2023-05-28&group_adults=1&no_rooms=1&group_children=0&sb_travel_purpose=leisure#map_closed"
+                                    target="_blank">Booking</a>
+                            </td>
+                            <td><a href="https://www.tripadvisor.fr/Attraction_Review-g1403098-d247573-Reviews-Cairn_of_Barnenez-Plouezoc_h_Finistere_Brittany.html"
+                                    target="_blank">Tripadvisor</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- enlarge img -->
+        <img src="../../global_icon/remove.png" alt="close btn" id="closeImg">
+
+        <figure>
+            <img src="./photos/63e39970f04d2c1a95502676_full.jpg" alt="Cairn de Bernenez img" class="enLargeImg">
+        </figure>
+
+        <figure>
+            <img src="./photos/Barnenez_front2_full.jpg" alt="Cairn de Bernenez img" class="enLargeImg">
+        </figure>
+
+        <figure>
+            <img src="./photos/crtb-Cairn2_BERTHIER-Emmanuel_full.jpg" alt="Cairn de Bernenez img" class="enLargeImg">
+        </figure>
+
+        <figure>
+            <img src="./photos/phbw07-3243_bd_full.jpg" alt="Cairn de bernenez img" class="enLargeImg">
+        </figure>
+
+        <figure>
+            <img src="./photos/img_2083.1_full.jpg" alt="Cairn de Bernenez img" class="enLargeImg">
+        </figure>
+
+        <footer class="blurTarget">
+
+            <address class="mail"><a href="mailto:TimMonuments@ProjectNursery.com">TimMonuments@ProjectNursery.com</a>
+            </address>
+            <p><a href="../../other_page/a_propos/a_propos.html">A propos </a>
+            </p>
+
+        </footer>
+    </main>
+    <script src="./JS_CSS/carousel.js"></script>
+    <script src="../../global_CSS_JS/darkMode.js"></script>
+    <script src="./JS_CSS/tabledropDown.js"></script>
+    <script src="./JS_CSS/enLargeImg.js"></script>
+</body>
+
+</html>

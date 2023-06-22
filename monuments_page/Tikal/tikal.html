@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../global_CSS_JS/header_footer.css">
+    <link rel="stylesheet" href="./JS_CSS/Tikal.css">
+    <link rel="stylesheet" href="./JS_CSS/carousel.css">
+    <link rel="stylesheet" href="./JS_CSS/enLargeImge.css">
+    <link rel="stylesheet" href="./JS_CSS/darkMode.css">
+    <link rel="stylesheet" href="./JS_CSS/mediaQuery.css">
+    <link rel="stylesheet" href="../../global_CSS_JS/header_footerPhone.css">
+
+
+    <title>Tikal</title>
+</head>
+
+<body>
+    <main>
+        <header>
+
+            <figure class="logo">
+                <a href="../../index.html"><img src="../../global_icon/Logo5.png" alt="Logo">
+                </a>
+            </figure>
+
+            <div class="flex_header">
+                <h1>Le Tour du Monde des Monuments</h1>
+
+                <!-- voir pour faire une nav avec un gros bloc en fixed -->
+                <nav>
+                    <a href="../../index.html">
+                        Accueil
+                    </a>
+                    <div class="dropDown">
+                        <button class="dropBtn">Afrique</button>
+                        <a href="../Renaissance_Africaine/renaissanceAfricaine.html">
+                            <div class="dropContent">Renaissance Africaine</div>
+                        </a>
+                    </div>
+
+
+                    <div class="dropDown">
+                        <button class="dropBtn">Amérique du Nord</button>
+                        <a href="../Mont Rushmore/mont_rushmore.html" class="dropContent">
+                            <div>Mont Rushmore</div>
+                        </a>
+                    </div>
+
+
+
+                    <div class="dropDown">
+                        <button class="dropBtn">Amérique du Sud</button>
+                        <a href="./tikal.html">
+                            <div class="dropContent">Tikal</div>
+                        </a>
+                    </div>
+
+                    <div class="dropDown">
+                        <button class="dropBtn">Australie</button>
+                        <a href="../Harbour Bridge/harbour_bridge.html">
+                            <div class="dropContent">Harbour Bridge
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="dropDown">
+                        <button class="dropBtn">Asie</button>
+                        <a href="../Chand Baori/chand_baori.html">
+                            <div class="dropContent">Chand Baori</div>
+                        </a>
+                    </div>
+
+                    <div class="dropDown">
+                        <button class="dropBtn">Europe</button>
+                        <a href="../leCairn/le_cairn.html">
+                            <div class="dropContent">Le Cairn de Bernenez
+                            </div>
+                        </a>
+                    </div>
+
+                </nav>
+            </div>
+
+            <figure class="language">
+                <!-- faire le choix des langues par image cliquable-->
+                <a href="./tikal.html" title="Francais"><img src="../../global_icon/france.png" alt="French Flag"></a>
+                <a href="../../other_page/fake_page/fake_Page.html"> <img src="../../global_icon/united-kingdom.png"
+                        alt="English Flag" title="not working right now"></a>
+            </figure>
+        </header>
+
+        <!-- button dark mode -->
+        <div id="drkModeBtn" class="blurTarget">
+
+        </div>
+
+        <section class="mainSection blurTarget">
+            <article class="article" id="firstArticle">
+                <h2>Tikal</h2>
+                <p>
+                    Tikal est l’ un des plus grands sites archéologiques de la civilisation maya et de la période
+                    pré-colombienne. IL est situé au Nord Ouest du Guatamala .
+                    Le site est composé de milliers de structures, temples dont la majorité n’ a pas été fouillé. Le
+                    point culminant du site est la collection de pyramides à 6 degrés avec leur temple ornant leurs
+                    sommets, la plus haute de ses pyramides mesure plus 200 mètres .
+                </p>
+            </article>
+
+            <!-- premiere section principale -->
+            <aside class="GMapPosition">
+                <figure>
+                    <!-- iframe google maps -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121974.84123320741!2d-89.68660328087061!3d17.18413604246569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5fa6ca55526adb%3A0x12e1837f24e01655!2sTikal%2C%20Guatemala!5e0!3m2!1sfr!2sfr!4v1686580492417!5m2!1sfr!2sfr"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </figure>
+            </aside>
+        </section>
+
+        <!-- deuxieme section -->
+        <section class="secondSection blurTarget">
+
+            <div class="subArticle">
+                <figure>
+                    <img src="./img/hector-pineda-M25dywqGkrg-unsplash.jpg" alt="image monument" id="myImg" class="imgClick"/>
+                </figure>
+
+                    <ul>
+                        <li><span>Superficie:</span> <br> 16km²</li>
+                        <li>
+                            <span>Structures:</span> <br> 3 000+
+                        </li>
+                        <li><span>Zone</span> <br>570 km²</li>
+                        <li><span>Date:</span> <br>26 mai 1955</li>
+                        
+                    </ul>
+                <!-- listes d'infos -->
+                <aside>
+                    <!-- Flickity HTML init -->
+                    <div id="wrapper">
+                        <div id="carousel">
+                            <div id="content">
+                                <img id="myImg2" class="item imgClick" src="./img/alexander-schimmeck-uQ7BRkhn6gs-unsplash.jpg"  alt="carousel img"/>
+                                <img id="myImg3" class="item imgClick" src="./img/jimmy-baum-N4gc_5rZ9dM-unsplash.jpg" alt="carousel img" />
+                                <img id="myImg4" class="item imgClick" src="./img/marissa-eric-SZaWI4PM-W0-unsplash.jpg" alt="carousel img"/>
+                            </div>
+                        </div>
+                        <button id="prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="none" d="M0 0h24v24H0V0z" />
+                                <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                            </svg>
+                        </button>
+                        <button id="next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="none" d="M0 0h24v24H0V0z" />
+                                <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                            </svg>
+                        </button>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section class="thirdSection blurTarget">
+            <article class="article">
+                <h2>En savoir plus</h2>
+                <p>Le nom de Tikal est dérivé du mot yucatèque ti ak'al, relativement récent et signifiant au trou d’eau. Pour les chasseurs et les voyageurs de la région, ce terme désignait apparemment l'un des anciens réservoirs du site.<br>Selon une autre interprétation, il pourrait signifier le lieu des voix, lieu des langues, ou lieu des échos en langue maya itza. Quoi qu'il en soit, Tikal n’est pas l'ancien nom du site, mais plutôt le nom qui lui a été attribué peu après sa découverte dans les années 1840.</p>
+            </article>
+
+
+            <!-- mettre en forme le tableau (lien utile en dropButton?) -->
+            <div class="tableDropDown">
+                <button onclick="myFunction()" id="tableDropDownBtn"> Liens Utiles<img
+                        src="../../global_icon/down-arrow.png" alt=""></button>
+                <div id="tableDropContent" class="contentHide">
+                    <table>
+                        <tr>
+                            <th>Site Officiel</th>
+                            <th>Besoin d'un hôtel proche?</th>
+                            <th>Achat d'un ticket pourle voyage?</th>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.guatemala-voyages.com/site-maya-tikal"
+                                    target="_blank">guatemala-voyages</a></td>
+                            <td><a href="https://www.booking.com/city/gt/tikal.fr.html?aid=356980&label=gog235jc-1DCAMoXkIFdGlrYWxIM1gDaE2IAQGYAQ24ARfIAQ_YAQPoAQGIAgGoAgO4AsOInaQGwAIB0gIkM2RkNDU5NjItNWUzNy00YzcyLTg0MDUtMTJhMDQ0MzJmMTUz2AIE4AIB&sid=3ad871beb9b0316bf783af57907adf83&inac=0&keep_landing=1&"
+                                    target="_blank">Booking</a>
+                            </td>
+                            <td><a href="https://www.tripadvisor.com/Attraction_Review-g292015-d10736302-Reviews-Tikal-Tikal_National_Park_Peten_Department.html"
+                                    target="_blank">Tripadvisor</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- enlarge img -->
+        <img src="../../global_icon/remove.png" alt="close btn" id="closeImg">
+
+        <figure>
+            <img src="./img/hector-pineda-M25dywqGkrg-unsplash.jpg" alt="Tikal img" class="enLargeImg">
+        </figure>
+
+        <figure>
+            <img src="./img/alexander-schimmeck-uQ7BRkhn6gs-unsplash.jpg" alt="Tikal img" class="enLargeImg">
+        </figure>
+
+        <figure>
+            <img src="./img/jimmy-baum-N4gc_5rZ9dM-unsplash.jpg" alt="Tikal img" class="enLargeImg">
+        </figure>
+
+        <figure>
+            <img src="./img/marissa-eric-SZaWI4PM-W0-unsplash.jpg" alt="Tikal img" class="enLargeImg">
+        </figure>
+
+        <footer class="blurTarget">
+
+            <address class="mail"><a href="mailto:TimMonuments@ProjectNursery.com">TimMonuments@ProjectNursery.com</a>
+            </address>
+            <p><a href="../../other_page/a_propos/a_propos.html">A propos </a>
+            </p>
+
+        </footer>
+    </main>
+    <script src="./JS_CSS/carousel.js"></script>
+    <script src="../../global_CSS_JS/darkMode.js"></script>
+    <script src="./JS_CSS/tabledropDown.JS"></script>
+    <script src="./JS_CSS/enLargeImg.js"></script>
+</body>
+
+</html>

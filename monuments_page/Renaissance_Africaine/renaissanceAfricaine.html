@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../global_CSS_JS/header_footer.css">
+    <link rel="stylesheet" href="./JS_CSS/renaissance_africaine.css">
+    <link rel="stylesheet" href="./JS_CSS/carousel.css">
+    <link rel="stylesheet" href="./JS_CSS/enLargeImg.css">
+    <link rel="stylesheet" href="./JS_CSS/darkMode.css">
+    <link rel="stylesheet" href="./JS_CSS/mediaQuery.css">
+    <link rel="stylesheet" href="../../global_CSS_JS/header_footerPhone.css">
+
+    <title>Renaissance_Africaine</title>
+</head>
+
+<body>
+    <main>
+        <header class="blurTarget">
+
+            <figure class="logo">
+                <a href="../../index.html"><img src="../../global_icon/Logo5.png" alt="Logo">
+                </a>
+            </figure>
+
+            <div class="flex_header">
+                <h1>Le Tour du Monde des Monuments</h1>
+
+                <!-- voir pour faire une nav avec un gros bloc en fixed -->
+                <nav>
+                    <a href="../../index.html">
+                        Accueil
+                    </a>
+                    <div class="dropDown">
+                        <button class="dropBtn">Afrique</button>
+                        <a href="./renaissanceAfricaine.html">
+                            <div class="dropContent">Renaissance Africaine</div>
+                        </a>
+                    </div>
+
+
+                    <div class="dropDown">
+                        <button class="dropBtn">Amérique du Nord</button>
+                        <a href="../Mont Rushmore/mont_rushmore.html" class="dropContent">
+                            <div>Mont Rushmore</div>
+                        </a>
+                    </div>
+
+                    <div class="dropDown">
+                        <button class="dropBtn">Amérique du Sud</button>
+                        <a href="../Tikal/tikal.html">
+                            <div class="dropContent">Tikal</div>
+                        </a>
+                    </div>
+
+                    <div class="dropDown">
+                        <button class="dropBtn">Australie</button>
+                        <a href="../Harbour Bridge/harbour_bridge.html">
+                            <div class="dropContent">Harbour Bridge
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="dropDown">
+                        <button class="dropBtn">Asie</button>
+                        <a href="../Chand Baori/chand_baori.html">
+                            <div class="dropContent">Chand Baori</div>
+                        </a>
+                    </div>
+
+                    <div class="dropDown">
+                        <button class="dropBtn">Europe</button>
+                        <a href="../leCairn/le_cairn.html">
+                            <div class="dropContent">Le Cairn de Bernenez
+                            </div>
+                        </a>
+                    </div>
+
+                </nav>
+            </div>
+
+            <figure class="language">
+                <!-- faire le choix des langues par image cliquable-->
+                <a href="./renaissanceAfricaine.html" title="Francais"><img src="../../global_icon/france.png"
+                        alt="French Flag"></a>
+                <a href="../../other_page/fake_page/fake_Page.html"><img src="../../global_icon/united-kingdom.png"
+                        alt="English Flag" title="got to the English page">
+                </a>
+            </figure>
+        </header>
+
+        <!-- button dark mode -->
+        <div id="drkModeBtn" class="blurTarget">
+        </div>
+
+
+        <section class="mainSection blurTarget">
+            <article class="article" id="firstArticle">
+                <h2>Renaissance Africaine</h2>
+                <p>
+                    Le Monument de la Renaissance Africaine a été construit en 2009 pour la
+                    commémoration des 50 ans de l’indépendance sur Sénégal et est érigé sur
+                    l’une des
+                    colline volcanique de la capitale Sénégalaise.
+                    Il représente un homme portant son enfant et tenant sa femme par la
+                    taille et a pour
+                    but de montré une “Afrique sortant des entraille de la terre et quittant
+                    l’obscurantisme (Attitude d’opposition a la diffusion du savoir)”
+                </p>
+            </article>
+
+            <!-- premiere section principale -->
+            <aside class="GMapPosition">
+                <figure>
+                    <!-- iframe google maps -->
+                    <iframe
+                        src="https://www.google.com/maps/d/embed?mid=1guym_-JqXLFI395rKG6YyPZi6YY&hl=en&ehbc=2E312F"></iframe>
+                </figure>
+            </aside>
+        </section>
+
+        <!-- deuxieme section -->
+        <section class="secondSection blurTarget">
+
+            <div class="subArticle">
+                <figure>
+                    <img src="./img/monument_renaissance_africaine.jpg" alt="image monument" id="myImg"
+                        class="imgClick" />
+                </figure>
+
+                <!-- listes d'infos -->
+                <ul>
+                    <li><span>Taille:</span> <br> 52M</li>
+                    <li>
+                        <span>Coût:</span> <br> 23M Euros
+                    </li>
+                    <li><span>Construction:</span> <br>8ans</li>
+                    <li><span>Matériaux:</span> <br>Cuivre et Bronze</li>
+                    <li><span>Architecte:</span> <br>Pierre Goudiaby Atepa</li>
+                </ul>
+
+                <aside>
+                    <!-- Flickity HTML init -->
+                    <div id="wrapper">
+                        <div id="carousel">
+                            <div id="content">
+                                <img id="myImg2" class="item imgClick" src="./img/RenaissanceAfricaine.jpg"
+                                    title="carousel img 1" />
+                                <img id="myImg3" class="item imgClick" src="./img/AfraicanRenaissance.jpg"
+                                    title="carousel img 2" />
+                                <img id="myImg4" class="item imgClick" src="./img/African_Renaissance_Monument.jpg"
+                                    title="carousel img 3" />
+                            </div>
+                        </div>
+                        <button id="prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="none" d="M0 0h24v24H0V0z" />
+                                <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                            </svg>
+                        </button>
+                        <button id="next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="none" d="M0 0h24v24H0V0z" />
+                                <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                            </svg>
+                        </button>
+                    </div>
+                </aside>
+            </div>
+        </section>
+        <section class="thirdSection blurTarget">
+            <article class="article">
+                <h2>En savoir plus</h2>
+                <p>Ce projet a fait l'objet de nombreuses critiques et a concentré les oppositions au président Wade.
+
+                    La polémique concerne notamment son coût jugé pharaonique dans un contexte de crise économique du
+                    pays, un financement jugé par l'opposition peu transparent et l'annonce publique que le chef de
+                    l'État se réserverait, au titre de la propriété intellectuelle, 35 % des recettes engendrées par la
+                    visite du monument et la fréquentation des infrastructures attenantes et que son fils Karim Wade
+                    présiderait le conseil d'administration de la fondation chargée de la gestion. Il est également
+                    critiqué que sa construction ait été menée par la dictature nord-coréenne. Peu avant l'inauguration,
+                    des centaines de personnes ont manifesté dans les rues de Dakar pour demander la démission
+                    d'Abdoulaye Wade pour ces raisons. </p>
+            </article>
+
+
+            <!-- mettre en forme le tableau (lien utile en dropButton?) -->
+            <div class="tableDropDown">
+                <button onclick="myFunction()" id="tableDropDownBtn"> Liens Utiles<img
+                        src="../../global_icon/down-arrow.png" alt=""></button>
+                <div id="tableDropContent" class="contentHide">
+                    <table>
+                        <tr>
+                            <th>Site Officiel</th>
+                            <th>Besoin d'un hôtel proche?</th>
+                            <th>Achat d'un ticket pourle voyage?</th>
+                        </tr>
+                        <tr>
+                            <td><a href="https://monuraf.net/" target="_blank">monuraf</a></td>
+                            <td><a href="https://www.booking.com/city/sn/dakar.fr.html" target="_blank">Booking</a>
+                            </td>
+                            <td><a href="https://www.tripadvisor.fr/Attraction_Review-g293831-d2085203-Reviews-Le_Monument_de_la_Renaissance_Africaine-Dakar_Dakar_Region.html"
+                                    target="_blank">Tripadvisor</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- enlarge img -->
+        <img src="../../global_icon/remove.png" alt="close btn" id="closeImg">
+
+        <figure>
+            <img src="./img/monument_renaissance_africaine_full.jpg" alt="renaissance africaine img" class="enLargeImg">
+        </figure>
+
+        <figure>
+            <img src="./img/RenaissanceAfricaine.jpg" alt="renaissance africaine img" class="enLargeImg">
+        </figure>
+
+        <figure>
+            <img src="./img/AfraicanRenaissance.jpg" alt="renaissance africaine img" class="enLargeImg">
+        </figure>
+
+        <figure>
+            <img src="./img/African_Renaissance_Monument.jpg" alt="renaissance africaine img" class="enLargeImg">
+        </figure>
+
+        <footer class="blurTarget">
+
+            <address class="mail"><a href="mailto:TimMonuments@ProjectNursery.com">TimMonuments@ProjectNursery.com</a>
+            </address>
+            <p><a href="../../other_page/a_propos/a_propos.html">A propos </a>
+            </p>
+
+        </footer>
+    </main>
+    <script src="./JS_CSS/carousel.js"></script>
+    <script src="./JS_CSS/tabledropDown.JS"></script>
+    <script src="./JS_CSS/enlargeImg.js"></script>
+    <script src="../../global_CSS_JS/darkMode.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+@media screen and (max-width: 420px) {
+
+   #drkModeBtn {
+      left: 89%;
+      height: 40px;
+      width: 8%;
+   }
+
+   .subArticle figure {
+      height: 50%;
+      width: 100%;
+      margin-bottom: 2%;
+
+
+   }
+
+   .subArticle {
+      display: block;
+      width: 100%;
+   }
+
+   .subArticle ul {
+      text-align: center;
+      list-style: none;
+      height: 40%;
+      width: 50%;
+      margin-left: 15%;
+   }
+
+   .article h2 {
+      font-size: 2rem;
+   }
+
+   #carousel {
+      width: 100%;
+   }
+
+   #content img {
+      width: 400px;
+   }
+
+   .thirdSection {
+      margin-top: 65%;
+   }
+
+   table {
+      width: 370px;
+   }
+
+   table th {
+      font-size: 1.5rem;
+   }
+
+   table td {
+      font-size: 1.5rem;
+   }
+
+   #tableDropDownBtn {
+      font-size: 1.8rem;
+   }
+
+   .dropBtn {
+      font-size: 1rem;
+   }
+}
+
+@media screen and (min-width: 421px) and (max-width: 820px)
+    {
+      #drkModeBtn
+      {
+         left: 93%;
+         height: 40px;
+         width: 40px;
+      }
+      .article
+      {
+         width: 99%;
+      }
+      .GMapPosition
+      {
+         width: 90%;
+      }
+
+      iframe
+      {
+         width: 100%;
+      }
+
+      .subArticle figure{
+         height: 90%;
+         width: 55%;
+      } 
+      
+      .subArticle ul{
+         justify-content: space-between;
+         margin-top: 0;
+         width: 180px;
+         height: 90%;
+         padding: 20px;
+      }
+
+      #carousel
+      {
+         height: 50%;
+         width: 750px;
+      }
+
+      .thirdSection
+      {
+         margin-top: 550px;
+      }
+
+      button img{
+         height: 20px;
+         width: 20px;
+      }
+     
+}

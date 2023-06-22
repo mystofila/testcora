@@ -1,0 +1,178 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(247, 247, 247, 0.979);
+}
+
+.mainSection,.secondSection
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section{
+    margin: 15px;
+    padding: 15px;
+}
+section p
+{
+    margin: 20px;
+    font-size: 1.2rem;
+}
+/* premiere section */
+.article
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 3px solid black;
+    background-color: rgba(122, 120, 120, 0.363);
+    border-radius: 30px;
+    margin: 20px;
+}
+#firstArticle
+{
+    width: 79%;
+}
+
+.article h2
+{
+    align-self: center;
+    text-decoration: underline;
+    margin: 20px;
+}
+
+section figure
+{
+  border: 1px solid black;
+}
+
+/* iframe google maps */
+.GMapPosition figure
+{
+    margin: 15px;
+    height: 99%;
+}
+
+iframe
+{
+    height: 100%;
+}
+
+/* seconde section */
+.secondSection
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.w3-content
+{
+    width: 520px;
+    margin: 5px;
+    min-height: 520px;
+}
+.subArticle
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subArticle span
+{
+    text-decoration: underline;
+}
+
+.subArticle figure
+{
+    margin: 0px;
+}
+
+[alt="image monument"]
+{
+   height: 100%;
+   width: 100%; 
+}
+ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+    font-size: 1.2rem;
+    border: 3px solid black;
+    background-color: rgba(122, 120, 120, 0.363);
+    border-radius: 30px;
+    margin: 30px;
+    padding: 30px;
+}
+.thirdSection
+{
+    margin-top: 3%;
+    text-align: center;
+}
+
+/* liens utiles et tableau */
+
+.tableDropDown
+{   display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+#tableDropDownBtn
+{
+    font-size: 2rem;
+    width: 54%;
+    text-align: center;
+}
+button img
+{
+    position: relative;
+    left: 1%;
+    height: 60%;
+    width: 2%;
+}
+.contentHide
+{
+    display: none;
+    position: relative;
+    z-index: 2;
+}
+
+.tableContentShow
+{
+    display: block;
+}
+
+table,tr,th,td{
+    text-align: center;
+    border: 1px solid black;
+    min-width: 15%;
+}
+
+th
+{
+    background-color:rgba(122, 120, 120, 1) ;
+}
+
+td
+{
+    background-color: rgba(122, 120, 120, 0.363);
+}
+
+table a
+{
+    text-decoration: none;
+    color:black;
+}
+
+table a:hover
+{
+    text-decoration: underline;
+}
+

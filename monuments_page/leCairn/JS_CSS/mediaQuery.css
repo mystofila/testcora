@@ -1,0 +1,81 @@
+@media screen and (max-width: 420px) {
+
+    #drkModeBtn {
+       left: 89%;
+       height: 40px;
+       width: 8%;
+    }
+ 
+    .subArticle figure {
+       height: 50%;
+       width: 100%;
+       margin-bottom: 2%;
+ 
+ 
+    }
+ 
+    .subArticle {
+       display: block;
+       width: 100%;
+    }
+ 
+    .subArticle ul {
+       text-align: center;
+       list-style: none;
+       height: 40%;
+       width: 50%;
+       margin-left: 15%;
+    }
+ 
+    .article h2 {
+        text-align: center;
+       font-size: 2rem;
+    }
+ 
+    #carousel {
+       width: 100%;
+    }
+ 
+    #content img {
+       width: 400px;
+       height: 240px;
+    }
+ 
+    .thirdSection {
+       margin-top: 65%;
+    }
+ 
+    table {
+       width: 370px;
+    }
+ 
+    table th {
+       font-size: 1.5rem;
+    }
+ 
+    table td {
+       font-size: 1.5rem;
+    }
+ 
+    #tableDropDownBtn {
+       font-size: 1.8rem;
+    }
+ 
+    .dropBtn {
+       font-size: 1rem;
+    }
+
+    .enLargeImg
+    {
+        top: 10%;
+        height: 79%;
+        width: 60%;
+    }
+
+    #closeImg
+    {
+        top: 10%;
+        height: 10%;
+        width: 10%;
+    }
+ }
