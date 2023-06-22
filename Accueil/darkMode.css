@@ -1,0 +1,104 @@
+/* passe le btn en blanc */
+#whiteModeBtn {
+    background-color: (247, 247, 247, 0.979);
+}
+
+.darkMode main
+{
+    background-image: url("./photos/monument-worlddark.png");
+}
+
+/* body change */
+#drkModeBtn {
+    display: flex;
+    position: relative;
+    left: 97.4%;
+    background-color: black;
+    width: 2%;
+    height: 40px;
+    min-height: 2%;
+    min-width: 2%;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.darkMode {
+    background-color: rgb(58, 55, 55);
+}
+
+.darkMode section {
+    color: rgb(230, 225, 225);
+}
+
+.darkMode #intro
+{
+    color: black;
+    background-color: rgb(142, 142, 146);
+}
+
+/* header change */
+.darkMode header {
+    color: rgb(230, 225, 225);
+    background-color: rgb(32, 32, 32);
+}
+
+.darkMode nav,
+.darkMode .dropBtn,
+.darkMode .dropContent,
+.darkMode nav a {
+    background-color: rgb(142, 142, 146);
+}
+
+.darkMode .dropContent:hover {
+    background-color: rgb(100, 100, 100);
+}
+/* intro change */
+.darkMode h2{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(43, 42, 42, 0.8));
+}
+
+.darkMode #intro
+{
+    color: black;
+    background: linear-gradient(rgba(122, 122, 122, 0.8), rgba(163, 163, 163, 0.8));
+}
+/* accordion change */
+.darkMode .accordion {
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(43, 43, 43, 0.9));
+}
+
+.darkMode .accordion:hover, .darkMode .active {
+    background: linear-gradient(rgba(163, 163, 163, 0.9), rgba(43, 43, 43));
+}
+
+.darkMode .accordionContent {
+    background-color: rgba(58, 55, 55, 0.3);
+}
+
+.darkMode .accordionContent figcaption:hover {
+    color: rgb(153, 151, 151);
+}
+
+.darkMode .panel {
+    background-color: rgb(142, 142, 146, 0.4);
+}
+
+/* newsletter change */
+.darkMode #popup {
+    color: black;
+    background-color: rgb(142, 142, 146);
+}
+
+.darkMode .newsLetter {
+    border: 5px solid grey;
+    outline-color: rgb(32, 32, 32);
+}
+
+/* footer change */
+.darkMode footer,
+.darkMode footer a {
+    color: rgb(230, 225, 225);
+    background-color: rgb(32, 32, 32);
+}

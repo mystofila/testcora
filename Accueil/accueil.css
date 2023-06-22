@@ -1,0 +1,266 @@
+@font-face {
+    font-family: "Lilita One";
+    src: url(./polices/LilitaOne-Regular.ttf);
+}
+
+/* CSS Body */
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(247, 247, 247, 0.979);
+}
+main {
+    background-image: url(./photos/monument-world.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+
+
+h2 {
+     margin-left: 36%;
+    margin-right: 33%;
+    text-align: center;
+    font-size: 43px;
+    background: linear-gradient(rgba(232, 212, 188, 0.8), rgba(149, 133, 111, 0.8));
+        -webkit-animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+}
+  @keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+}
+  
+
+section {
+    margin: 15px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#intro
+{
+    background: linear-gradient(rgba(232, 212, 188, 0.8), rgba(149, 133, 111, 0.8));
+    font-size: 24px;
+    text-align: center;
+    -webkit-animation: slide-in-bottom 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bottom 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes slide-in-bottom {
+    0% {
+      -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-bottom {
+    0% {
+      -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+
+/* accordion */
+.accordion {
+    background: linear-gradient(#e8d4bc, #95856f);
+    color: #000000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border-style: solid;
+    text-align: center;
+    font-weight: bold;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background: linear-gradient(#978a7a, #574d41);
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: rgba(232, 212, 188, 0.5);
+    overflow: hidden;
+}
+
+.accordionContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(250, 250, 252, 0);
+
+}
+
+.accordionContent a {
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+.accordionContent a:hover 
+{
+    color: white;
+}
+
+.accordionContent img {
+    border: 1px solid black;
+    margin-left: 2%;
+}
+
+[alt="question mark"] {
+    cursor: pointer;
+}
+
+.arrow {
+    height: 1%;
+    width: 1%;
+}
+
+
+/* popup newsletter */
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    font-size: 1.5rem;
+    width: 450px;
+    height: 350px;
+    padding: 20px 20px 20px;
+    background-color: rgba(232, 212, 188, 1);
+    box-shadow: 0px 15px 30px black;
+    visibility: hidden;
+}
+
+#popup.popupActive {
+    visibility: visible;
+
+}
+
+.newsLetter {
+    position: relative;
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid grey;
+    outline: 2rem solid #574d41;
+}
+
+form input {
+    width: 100%;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+}
+
+.newsLetter h3 {
+    text-decoration: underline;
+    margin: 15px;
+    padding: 18px;
+    font-size: 30px;
+}
+
+.newsLetter p {
+    text-align: center;
+}
+
+#closePopup {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    max-width: 30px;
+    max-height: 30px;
+    margin: 0;
+}
+
+#closePopup:hover {
+    cursor: pointer;
+}
+
+#validationBtn {
+    width: 50%;
+    position: relative;
+    left: 60px;
+    margin-bottom: 10px;
+}
+
+#validationBtn:hover {
+    letter-spacing: 1px;
+}
+
+/* fausse page */
+h4 {
+    font-size: 35px;
+}
+
+#popupLink:hover {
+    text-decoration: underline;
+    font-size: 55px;
+    color: black;
+    background-color: red;
+    cursor: pointer;
+}
+
+#popupLink {
+    text-align: center;
+    font-size: 45px;
+}
+
+#fakeNewsletter {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+#workInProgress {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+#gearInProgress {
+    display: flex;
+    justify-content: space-between;
+}
